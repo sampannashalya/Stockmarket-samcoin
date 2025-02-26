@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:first-of-type { background-color: green; color: white; }
+button:last-of-type { background-color: red; color: white; }
+
+#pnl {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profit { color: green; }
+.loss { color: red; }
+.neutral { color: white; }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #333;
+    margin: 5px;
+    border-radius: 5px;
+}
