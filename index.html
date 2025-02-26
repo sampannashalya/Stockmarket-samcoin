@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Market Simulator</h1>
+        <h2>Stock: SAMCOIN</h2>
+        <p>Price: <span id="stock-price">$100.00</span></p>
+        
+        <input type="number" id="quantity" placeholder="Enter Quantity" min="1">
+        <button onclick="buyStock()">Buy</button>
+        <button onclick="sellStock()">Sell</button>
+
+        <p>P&L: <span id="pnl" class="neutral">0.00</span></p>
+
+        <h3>Transaction History</h3>
+        <ul id="transaction-history"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
